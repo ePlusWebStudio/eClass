@@ -1,0 +1,171 @@
+<?php
+/**
+ * English Language File
+ * ملف اللغة الإنجليزية
+ */
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+return array(
+    // General
+    'eclass' => 'eClass',
+    'training_academy_crm' => 'Training Academy CRM',
+    'settings' => 'Settings',
+    'save' => 'Save',
+    'cancel' => 'Cancel',
+    'delete' => 'Delete',
+    'edit' => 'Edit',
+    'add' => 'Add',
+    'search' => 'Search',
+    'filter' => 'Filter',
+    'clear' => 'Clear',
+    'export_csv' => 'Export CSV',
+    'import_csv' => 'Import CSV',
+    'actions' => 'Actions',
+    'name' => 'Name',
+    'email' => 'Email',
+    'phone' => 'Phone',
+    'status' => 'Status',
+    'date' => 'Date',
+    'notes' => 'Notes',
+    'description' => 'Description',
+    'close' => 'Close',
+    
+    // Dashboard
+    'dashboard' => 'Dashboard',
+    'total_students' => 'Total Students',
+    'active_courses' => 'Active Courses',
+    'total_revenue' => 'Total Revenue',
+    'team_members' => 'Team Members',
+    'recent_enrollments' => 'Recent Enrollments',
+    'recent_payments' => 'Recent Payments',
+    'view_all' => 'View All',
+    'growth' => 'Growth',
+    'this_month' => 'This Month',
+    
+    // Students
+    'students' => 'Students',
+    'add_student' => 'Add Student',
+    'edit_student' => 'Edit Student',
+    'student_name' => 'Student Name',
+    'student' => 'Student',
+    'course' => 'Course',
+    'enrollment_status' => 'Enrollment Status',
+    'enrollment_date' => 'Enrollment Date',
+    'active' => 'Active',
+    'inactive' => 'Inactive',
+    'completed' => 'Completed',
+    'all_statuses' => 'All Statuses',
+    'all_courses' => 'All Courses',
+    'enrollment' => 'Enrollment',
+    'enrolled_students' => 'Enrolled Students',
+    
+    // Courses
+    'courses' => 'Courses',
+    'add_course' => 'Add Course',
+    'edit_course' => 'Edit Course',
+    'course_name' => 'Course Name',
+    'instructor' => 'Instructor',
+    'course_type' => 'Course Type',
+    'online' => 'Online',
+    'offline' => 'Offline',
+    'meeting_link' => 'Meeting Link',
+    'location_room' => 'Location/Room',
+    'schedule' => 'Schedule',
+    'capacity' => 'Capacity',
+    'enrolled' => 'Enrolled',
+    'price' => 'Price',
+    'start_date' => 'Start Date',
+    'end_date' => 'End Date',
+    'upcoming' => 'Upcoming',
+    'ongoing' => 'Ongoing',
+    'all_types' => 'All Types',
+    'all_instructors' => 'All Instructors',
+    'type' => 'Type',
+    'location' => 'Location',
+    'room' => 'Room',
+    'link' => 'Link',
+    
+    // Instructors
+    'instructors_team' => 'Instructors & Team',
+    'add_team_member' => 'Add Team Member',
+    'edit_team_member' => 'Edit Team Member',
+    'role' => 'Role',
+    'specialization' => 'Specialization',
+    'bio' => 'Biography',
+    'admin' => 'Admin',
+    'support' => 'Support',
+    'all_roles' => 'All Roles',
+    
+    // Billing
+    'billing_payments' => 'Billing & Payments',
+    'add_invoice' => 'Add Invoice',
+    'edit_invoice' => 'Edit Invoice',
+    'invoice_number' => 'Invoice Number',
+    'student' => 'Student',
+    'amount' => 'Amount',
+    'due_date' => 'Due Date',
+    'payment_status' => 'Payment Status',
+    'payment_method' => 'Payment Method',
+    'transaction_code' => 'Transaction Code',
+    'payment_date' => 'Payment Date',
+    'paid' => 'Paid',
+    'pending' => 'Pending',
+    'overdue' => 'Overdue',
+    'credit_card' => 'Credit Card',
+    'bank_transfer' => 'Bank Transfer',
+    'cash' => 'Cash',
+    'other' => 'Other',
+    'all_payment_statuses' => 'All Payment Statuses',
+    'all_payment_methods' => 'All Payment Methods',
+    
+    // Settings
+    'general_settings' => 'General Settings',
+    'language' => 'Language',
+    'currency_symbol' => 'Currency Symbol',
+    'date_format' => 'Date Format',
+    'items_per_page' => 'Items Per Page',
+    'sample_data_management' => 'Sample Data Management',
+    'insert_sample_data' => 'Insert Sample Data',
+    'delete_all_data' => 'Delete All Data',
+    'database_statistics' => 'Database Statistics',
+    'system_information' => 'System Information',
+    'plugin_version' => 'Plugin Version',
+    'wordpress_version' => 'WordPress Version',
+    'php_version' => 'PHP Version',
+    'mysql_version' => 'MySQL Version',
+    'database_tables' => 'Database Tables',
+    'save_settings' => 'Save Settings',
+    'invoices' => 'Invoices',
+    'total' => 'Total',
+    'course_details' => 'Course Details',
+    'student_details' => 'Student Details',
+    'instructor_details' => 'Instructor Details',
+    'invoice_details' => 'Invoice Details',
+    
+    // Messages
+    'settings_saved' => 'Settings saved successfully!',
+    'confirm_delete' => 'Are you sure you want to delete this item?',
+    'confirm_delete_all' => 'WARNING: Are you sure you want to delete all data?\n\nThis will delete:\n- All students\n- All courses\n- All instructors\n- All invoices\n\nThis action cannot be undone!',
+    'confirm_delete_all_final' => 'Final confirmation: Are you absolutely sure?',
+    'data_inserted' => 'Sample data inserted successfully!',
+    'data_deleted' => 'All data has been deleted successfully!',
+    'error_occurred' => 'An error occurred. Please try again.',
+    'no_data_found' => 'No data found',
+    
+    // Footer
+    'developed_by' => 'Developed by',
+    'visit_website' => 'Visit Website',
+    
+    // CSV
+    'import_instructions' => 'Upload a CSV file to import data',
+    'export_instructions' => 'Download current data as CSV file',
+    'file_format' => 'File Format',
+    
+    // Validation
+    'required_field' => 'This field is required',
+    'invalid_email' => 'Invalid email address',
+    'invalid_phone' => 'Invalid phone number',
+);
